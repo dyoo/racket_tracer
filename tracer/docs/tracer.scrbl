@@ -3,7 +3,7 @@
           racket/list
           racket/runtime-path)
 
-;; The following is a workaround the Scribble/snip bug in Racket 5.1.3.
+@;;; The following is a workaround the Scribble/snip bug in Racket 5.1.3.
 @(define-runtime-path screenshots.scm "screenshots.scm")
 @(define screenshots (call-with-input-file screenshots.scm 
                        (lambda (ip)
